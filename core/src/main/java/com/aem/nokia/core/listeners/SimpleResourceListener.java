@@ -32,6 +32,7 @@ import org.slf4j.LoggerFactory;
  * Please note, that apart from EventHandler services,
  * the immediate flag should not be set on a service.
  */
+ /* This is a simple resource Listener.java file*/
 @Component(service = EventHandler.class,
            immediate = true,
            property = {

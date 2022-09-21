@@ -28,6 +28,7 @@ import org.slf4j.LoggerFactory;
  * It also demonstrates how property values can be set. Users can
  * set the property values in /system/console/configMgr
  */
+ /* This is a simple scheduler Task.java file*/
 @Designate(ocd=SimpleScheduledTask.Config.class)
 @Component(service=Runnable.class)
 public class SimpleScheduledTask implements Runnable {
